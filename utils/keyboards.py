@@ -43,4 +43,4 @@ def keyboard_builder_reply(button_texts: list[str], rows: int, cols: int) -> Rep
         ])
 
     return ReplyKeyboardMarkup(keyboard=keyboard, resize_keyboard=True)
-main_menu = keyboard_builder_reply(["команды","отправить файл","текст в буфер обмена"],rows=3,cols=1)
+main_menu = keyboard_builder_reply(["команды"],rows=1,cols=1)
