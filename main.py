@@ -1,4 +1,5 @@
 import asyncio
+import logging
 from aiogram import Bot, Dispatcher
 from aiogram.fsm.storage.memory import MemoryStorage
 from aiogram.types import BufferedInputFile
@@ -16,11 +17,13 @@ notify_queue = asyncio.Queue()
 
 @app.post("/notify")
 async def notify(request: Request):
+    logging.info("обработка уведомления")
     data = await request.json()
     text = data.get("text")
     if text:
         await notify_queue.put(text)
         return {"status": "ok"}
+    logging.error("ошибка уведомления, текст не задан")
     return {"status": "error", "message": "No text provided"}
 
 @app.post("/send-file")
@@ -47,6 +50,7 @@ async def notifier(bot: Bot, chat_id: int):
                 await bot.send_document(chat_id, document=file)
 
 async def start_bot_and_api():
+    logging.info("иницилизация бота")
     bot = Bot(token=BOT_TOKEN)
     dp = Dispatcher(storage=MemoryStorage())
     CommandsDB("./data/commands.db")

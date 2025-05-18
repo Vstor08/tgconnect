@@ -2,7 +2,7 @@ from aiogram import Router, types, F
 from aiogram.fsm.context import FSMContext
 from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery
 from aiogram.fsm.state import State, StatesGroup
-
+import logging
 from config import ADMIN_ID
 from utils import filters
 from utils.commands_db import CommandsDB
@@ -28,6 +28,7 @@ def build_commands_keyboard():
 # Хендлер "команды"
 @router.message(filters.IsAdmin(ADMIN_ID), F.text.lower() == "команды")
 async def command_list(message: types.Message):
+    logging.info("обработка сообщения команды")
     keyboard = build_commands_keyboard()
     await message.answer("Выберите команду или добавьте новую:", reply_markup=keyboard)
 

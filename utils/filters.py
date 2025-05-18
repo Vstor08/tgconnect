@@ -12,8 +12,11 @@ class IsAdmin(BaseFilter):
 class Command(BaseFilter):
     def __init__(self, command: str):
         self.command = command
-    async def __call__(self,message: Message) -> bool:
-        return message.text == f"/{self.command}"
+
+    async def __call__(self, message: Message) -> bool:
+        if not message.text:
+            return False
+        return message.text.strip().startswith(f"/{self.command}")
 
 class Text(BaseFilter):
     def __init__(self, text: str):

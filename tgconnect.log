@@ -551,3 +551,175 @@ Traceback (most recent call last):
     raise TelegramBadRequest(method=method, message=description)
 aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: can't parse entities: Unsupported start tag "label:onclick" at byte offset 179
 2025-05-18 16:39:55,102 [INFO] aiogram.event: Update id=116986506 is handled. Duration 419 ms by bot id=7591130421
+2025-05-18 16:41:12,979 [WARNING] aiogram.dispatcher: Received SIGTERM signal
+2025-05-18 16:41:12,980 [INFO] aiogram.dispatcher: Polling stopped for bot @vstorhelpbot id=7591130421 - 'myhelperbot'
+2025-05-18 16:41:12,981 [INFO] aiogram.dispatcher: Polling stopped
+2025-05-18 16:41:13,126 [WARNING] aiogram.dispatcher: Received SIGTERM signal
+2025-05-18 16:41:18,066 [INFO] aiogram.dispatcher: Start polling
+2025-05-18 16:41:18,352 [INFO] aiogram.dispatcher: Run polling for bot @vstorhelpbot id=7591130421 - 'myhelperbot'
+2025-05-18 16:41:19,444 [INFO] aiogram.dispatcher: Start polling
+2025-05-18 16:41:19,458 [INFO] aiogram.dispatcher: Polling stopped
+2025-05-18 16:41:19,761 [ERROR] asyncio: Task exception was never retrieved
+future: <Task finished name='Task-3' coro=<Server.serve() done, defined at /home/vadim/Projects/tgconnect/.venv/lib/python3.13/site-packages/uvicorn/server.py:68> exception=SystemExit(1)>
+Traceback (most recent call last):
+  File "/home/vadim/Projects/tgconnect/.venv/lib/python3.13/site-packages/uvicorn/server.py", line 163, in startup
+    server = await loop.create_server(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/usr/lib/python3.13/asyncio/base_events.py", line 1616, in create_server
+    raise OSError(err.errno, msg) from None
+OSError: [Errno 98] error while attempting to bind on address ('127.0.0.1', 8899): [errno 98] address already in use
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vadim/Projects/tgconnect/main.py", line 67, in <module>
+    asyncio.run(start_bot_and_api())
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "/usr/lib/python3.13/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/lib/python3.13/asyncio/base_events.py", line 706, in run_until_complete
+    self.run_forever()
+    ~~~~~~~~~~~~~~~~^^
+  File "/usr/lib/python3.13/asyncio/base_events.py", line 677, in run_forever
+    self._run_once()
+    ~~~~~~~~~~~~~~^^
+  File "/usr/lib/python3.13/asyncio/base_events.py", line 2034, in _run_once
+    handle._run()
+    ~~~~~~~~~~~^^
+  File "/usr/lib/python3.13/asyncio/events.py", line 89, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vadim/Projects/tgconnect/.venv/lib/python3.13/site-packages/uvicorn/server.py", line 70, in serve
+    await self._serve(sockets)
+  File "/home/vadim/Projects/tgconnect/.venv/lib/python3.13/site-packages/uvicorn/server.py", line 85, in _serve
+    await self.startup(sockets=sockets)
+  File "/home/vadim/Projects/tgconnect/.venv/lib/python3.13/site-packages/uvicorn/server.py", line 173, in startup
+    sys.exit(1)
+    ~~~~~~~~^^^
+SystemExit: 1
+2025-05-18 16:41:22,080 [INFO] aiogram.event: Update id=116986507 is handled. Duration 164 ms by bot id=7591130421
+2025-05-18 16:41:27,762 [INFO] root: start handler called, user: 6569505824
+2025-05-18 16:41:27,762 [INFO] aiogram.event: Update id=116986508 is handled. Duration 107 ms by bot id=7591130421
+2025-05-18 16:41:29,493 [INFO] aiogram.event: Update id=116986509 is handled. Duration 102 ms by bot id=7591130421
+2025-05-18 16:45:54,461 [INFO] aiogram.event: Update id=116986510 is not handled. Duration 0 ms by bot id=7591130421
+2025-05-18 16:49:56,498 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-05-18 16:49:56,498 [WARNING] aiogram.dispatcher: Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7591130421)
+2025-05-18 16:50:08,047 [INFO] aiogram.dispatcher: Connection established (tryings = 1, bot id = 7591130421)
+2025-05-18 16:51:58,617 [WARNING] aiogram.dispatcher: Received SIGTERM signal
+2025-05-18 16:51:58,617 [INFO] aiogram.dispatcher: Polling stopped for bot @vstorhelpbot id=7591130421 - 'myhelperbot'
+2025-05-18 16:51:58,617 [INFO] aiogram.dispatcher: Polling stopped
+2025-05-18 16:51:58,725 [WARNING] aiogram.dispatcher: Received SIGTERM signal
+2025-05-18 16:52:04,864 [INFO] root: иницилизация бота
+2025-05-18 16:52:04,898 [INFO] aiogram.dispatcher: Start polling
+2025-05-18 16:52:05,404 [INFO] root: иницилизация бота
+2025-05-18 16:52:05,421 [INFO] aiogram.dispatcher: Start polling
+2025-05-18 16:52:05,436 [INFO] aiogram.dispatcher: Polling stopped
+2025-05-18 16:52:05,711 [INFO] aiogram.dispatcher: Run polling for bot @vstorhelpbot id=7591130421 - 'myhelperbot'
+2025-05-18 16:52:05,748 [ERROR] asyncio: Task exception was never retrieved
+future: <Task finished name='Task-3' coro=<Server.serve() done, defined at /home/vadim/Projects/tgconnect/.venv/lib/python3.13/site-packages/uvicorn/server.py:68> exception=SystemExit(1)>
+Traceback (most recent call last):
+  File "/home/vadim/Projects/tgconnect/.venv/lib/python3.13/site-packages/uvicorn/server.py", line 163, in startup
+    server = await loop.create_server(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/usr/lib/python3.13/asyncio/base_events.py", line 1616, in create_server
+    raise OSError(err.errno, msg) from None
+OSError: [Errno 98] error while attempting to bind on address ('127.0.0.1', 8899): [errno 98] address already in use
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vadim/Projects/tgconnect/main.py", line 71, in <module>
+    asyncio.run(start_bot_and_api())
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "/usr/lib/python3.13/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/lib/python3.13/asyncio/base_events.py", line 706, in run_until_complete
+    self.run_forever()
+    ~~~~~~~~~~~~~~~~^^
+  File "/usr/lib/python3.13/asyncio/base_events.py", line 677, in run_forever
+    self._run_once()
+    ~~~~~~~~~~~~~~^^
+  File "/usr/lib/python3.13/asyncio/base_events.py", line 2034, in _run_once
+    handle._run()
+    ~~~~~~~~~~~^^
+  File "/usr/lib/python3.13/asyncio/events.py", line 89, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vadim/Projects/tgconnect/.venv/lib/python3.13/site-packages/uvicorn/server.py", line 70, in serve
+    await self._serve(sockets)
+  File "/home/vadim/Projects/tgconnect/.venv/lib/python3.13/site-packages/uvicorn/server.py", line 85, in _serve
+    await self.startup(sockets=sockets)
+  File "/home/vadim/Projects/tgconnect/.venv/lib/python3.13/site-packages/uvicorn/server.py", line 173, in startup
+    sys.exit(1)
+    ~~~~~~~~^^^
+SystemExit: 1
+2025-05-18 16:52:05,977 [INFO] root: иницилизация бота
+2025-05-18 16:52:05,992 [INFO] aiogram.dispatcher: Start polling
+2025-05-18 16:52:06,006 [INFO] aiogram.dispatcher: Polling stopped
+2025-05-18 16:52:06,310 [ERROR] asyncio: Task exception was never retrieved
+future: <Task finished name='Task-3' coro=<Server.serve() done, defined at /home/vadim/Projects/tgconnect/.venv/lib/python3.13/site-packages/uvicorn/server.py:68> exception=SystemExit(1)>
+Traceback (most recent call last):
+  File "/home/vadim/Projects/tgconnect/.venv/lib/python3.13/site-packages/uvicorn/server.py", line 163, in startup
+    server = await loop.create_server(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/usr/lib/python3.13/asyncio/base_events.py", line 1616, in create_server
+    raise OSError(err.errno, msg) from None
+OSError: [Errno 98] error while attempting to bind on address ('127.0.0.1', 8899): [errno 98] address already in use
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vadim/Projects/tgconnect/main.py", line 71, in <module>
+    asyncio.run(start_bot_and_api())
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "/usr/lib/python3.13/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/lib/python3.13/asyncio/base_events.py", line 706, in run_until_complete
+    self.run_forever()
+    ~~~~~~~~~~~~~~~~^^
+  File "/usr/lib/python3.13/asyncio/base_events.py", line 677, in run_forever
+    self._run_once()
+    ~~~~~~~~~~~~~~^^
+  File "/usr/lib/python3.13/asyncio/base_events.py", line 2034, in _run_once
+    handle._run()
+    ~~~~~~~~~~~^^
+  File "/usr/lib/python3.13/asyncio/events.py", line 89, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vadim/Projects/tgconnect/.venv/lib/python3.13/site-packages/uvicorn/server.py", line 70, in serve
+    await self._serve(sockets)
+  File "/home/vadim/Projects/tgconnect/.venv/lib/python3.13/site-packages/uvicorn/server.py", line 85, in _serve
+    await self.startup(sockets=sockets)
+  File "/home/vadim/Projects/tgconnect/.venv/lib/python3.13/site-packages/uvicorn/server.py", line 173, in startup
+    sys.exit(1)
+    ~~~~~~~~^^^
+SystemExit: 1
+2025-05-18 16:52:14,637 [ERROR] root: ошибка добавления в буфер обмена
+2025-05-18 16:52:14,638 [INFO] aiogram.event: Update id=116986511 is handled. Duration 202 ms by bot id=7591130421
+2025-05-18 16:52:20,836 [INFO] root: в буфер обмена добавлено poop
+2025-05-18 16:52:20,836 [INFO] aiogram.event: Update id=116986512 is handled. Duration 272 ms by bot id=7591130421
+2025-05-18 16:52:40,992 [INFO] root: в буфер обмена добавлено пукикакикакашки
+2025-05-18 16:52:40,992 [INFO] aiogram.event: Update id=116986513 is handled. Duration 244 ms by bot id=7591130421
+2025-05-18 16:52:55,821 [INFO] root: в буфер обмена добавлено ❤️❤️❤️
+2025-05-18 16:52:55,821 [INFO] aiogram.event: Update id=116986514 is handled. Duration 238 ms by bot id=7591130421
