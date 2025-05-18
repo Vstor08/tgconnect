@@ -257,3 +257,201 @@ aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: can't
 2025-05-18 12:46:24,153 [WARNING] aiogram.dispatcher: Received SIGINT signal
 2025-05-18 12:46:24,153 [INFO] aiogram.dispatcher: Polling stopped for bot @vstorhelpbot id=7591130421 - 'myhelperbot'
 2025-05-18 12:46:24,153 [INFO] aiogram.dispatcher: Polling stopped
+2025-05-18 12:47:06,883 [INFO] aiogram.dispatcher: Start polling
+2025-05-18 12:47:07,548 [INFO] aiogram.dispatcher: Run polling for bot @vstorhelpbot id=7591130421 - 'myhelperbot'
+2025-05-18 12:47:18,113 [INFO] aiogram.event: Update id=116986427 is handled. Duration 1187 ms by bot id=7591130421
+2025-05-18 12:47:29,809 [WARNING] aiogram.dispatcher: Received SIGINT signal
+2025-05-18 12:47:29,809 [INFO] aiogram.dispatcher: Polling stopped for bot @vstorhelpbot id=7591130421 - 'myhelperbot'
+2025-05-18 12:47:29,809 [INFO] aiogram.dispatcher: Polling stopped
+2025-05-18 12:53:35,901 [INFO] aiogram.dispatcher: Start polling
+2025-05-18 12:53:36,844 [INFO] aiogram.dispatcher: Run polling for bot @vstorhelpbot id=7591130421 - 'myhelperbot'
+2025-05-18 12:56:11,729 [WARNING] aiogram.dispatcher: Received SIGINT signal
+2025-05-18 12:56:11,730 [INFO] aiogram.dispatcher: Polling stopped for bot @vstorhelpbot id=7591130421 - 'myhelperbot'
+2025-05-18 12:56:11,730 [INFO] aiogram.dispatcher: Polling stopped
+2025-05-18 12:56:11,849 [WARNING] aiogram.dispatcher: Received SIGINT signal
+2025-05-18 12:56:44,212 [INFO] aiogram.dispatcher: Start polling
+2025-05-18 12:56:44,886 [INFO] aiogram.dispatcher: Run polling for bot @vstorhelpbot id=7591130421 - 'myhelperbot'
+2025-05-18 12:56:56,306 [ERROR] asyncio: Task exception was never retrieved
+future: <Task finished name='Task-2' coro=<notifier() done, defined at /home/vadim/Projects/tgconnect/main.py:36> exception=TypeError("Bot.send_document() got an unexpected keyword argument 'filename'")>
+Traceback (most recent call last):
+  File "/home/vadim/Projects/tgconnect/main.py", line 45, in notifier
+    await bot.send_document(chat_id, document=BytesIO(content), filename=filename)
+          ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Bot.send_document() got an unexpected keyword argument 'filename'
+2025-05-18 12:58:58,617 [WARNING] aiogram.dispatcher: Received SIGINT signal
+2025-05-18 12:58:58,618 [INFO] aiogram.dispatcher: Polling stopped for bot @vstorhelpbot id=7591130421 - 'myhelperbot'
+2025-05-18 12:58:58,618 [INFO] aiogram.dispatcher: Polling stopped
+2025-05-18 12:58:58,789 [WARNING] aiogram.dispatcher: Received SIGINT signal
+2025-05-18 12:59:01,497 [INFO] aiogram.dispatcher: Start polling
+2025-05-18 12:59:02,573 [INFO] aiogram.dispatcher: Run polling for bot @vstorhelpbot id=7591130421 - 'myhelperbot'
+2025-05-18 12:59:24,962 [WARNING] aiogram.dispatcher: Received SIGINT signal
+2025-05-18 12:59:24,962 [INFO] aiogram.dispatcher: Polling stopped for bot @vstorhelpbot id=7591130421 - 'myhelperbot'
+2025-05-18 12:59:24,962 [INFO] aiogram.dispatcher: Polling stopped
+2025-05-18 12:59:25,079 [WARNING] aiogram.dispatcher: Received SIGINT signal
+2025-05-18 13:02:13,129 [INFO] aiogram.dispatcher: Start polling
+2025-05-18 13:02:13,860 [INFO] aiogram.dispatcher: Run polling for bot @vstorhelpbot id=7591130421 - 'myhelperbot'
+2025-05-18 13:02:15,610 [WARNING] aiogram.dispatcher: Received SIGINT signal
+2025-05-18 13:02:15,610 [INFO] aiogram.dispatcher: Polling stopped for bot @vstorhelpbot id=7591130421 - 'myhelperbot'
+2025-05-18 13:02:15,611 [INFO] aiogram.dispatcher: Polling stopped
+2025-05-18 13:02:15,753 [WARNING] aiogram.dispatcher: Received SIGINT signal
+2025-05-18 13:09:05,268 [INFO] aiogram.dispatcher: Start polling
+2025-05-18 13:09:05,587 [INFO] aiogram.dispatcher: Run polling for bot @vstorhelpbot id=7591130421 - 'myhelperbot'
+2025-05-18 13:09:07,075 [WARNING] aiogram.dispatcher: Received SIGINT signal
+2025-05-18 13:09:07,075 [INFO] aiogram.dispatcher: Polling stopped for bot @vstorhelpbot id=7591130421 - 'myhelperbot'
+2025-05-18 13:09:07,076 [INFO] aiogram.dispatcher: Polling stopped
+2025-05-18 13:09:07,192 [WARNING] aiogram.dispatcher: Received SIGINT signal
+2025-05-18 13:09:17,458 [INFO] aiogram.dispatcher: Start polling
+2025-05-18 13:09:17,745 [INFO] aiogram.dispatcher: Run polling for bot @vstorhelpbot id=7591130421 - 'myhelperbot'
+2025-05-18 13:09:22,102 [INFO] aiogram.event: Update id=116986428 is handled. Duration 274 ms by bot id=7591130421
+2025-05-18 13:09:46,224 [WARNING] aiogram.dispatcher: Received SIGTERM signal
+2025-05-18 13:09:46,225 [INFO] aiogram.dispatcher: Polling stopped for bot @vstorhelpbot id=7591130421 - 'myhelperbot'
+2025-05-18 13:09:46,225 [INFO] aiogram.dispatcher: Polling stopped
+2025-05-18 13:09:46,315 [WARNING] aiogram.dispatcher: Received SIGTERM signal
+2025-05-18 13:09:46,315 [WARNING] aiogram.dispatcher: Received SIGTERM signal
+2025-05-18 13:09:46,389 [WARNING] aiogram.dispatcher: Received SIGTERM signal
+2025-05-18 13:09:46,389 [WARNING] aiogram.dispatcher: Received SIGTERM signal
+2025-05-18 13:09:46,389 [WARNING] aiogram.dispatcher: Received SIGTERM signal
+2025-05-18 13:09:52,645 [INFO] aiogram.dispatcher: Start polling
+2025-05-18 13:09:52,942 [INFO] aiogram.dispatcher: Run polling for bot @vstorhelpbot id=7591130421 - 'myhelperbot'
+2025-05-18 13:10:07,626 [WARNING] aiogram.dispatcher: Received SIGTERM signal
+2025-05-18 13:10:07,626 [INFO] aiogram.dispatcher: Polling stopped for bot @vstorhelpbot id=7591130421 - 'myhelperbot'
+2025-05-18 13:10:07,626 [INFO] aiogram.dispatcher: Polling stopped
+2025-05-18 13:10:07,719 [WARNING] aiogram.dispatcher: Received SIGTERM signal
+2025-05-18 13:10:07,731 [WARNING] aiogram.dispatcher: Received SIGTERM signal
+2025-05-18 13:10:07,731 [WARNING] aiogram.dispatcher: Received SIGTERM signal
+2025-05-18 13:10:14,098 [INFO] aiogram.dispatcher: Start polling
+2025-05-18 13:10:14,406 [INFO] aiogram.dispatcher: Run polling for bot @vstorhelpbot id=7591130421 - 'myhelperbot'
+2025-05-18 13:10:19,659 [INFO] aiogram.event: Update id=116986429 is handled. Duration 247 ms by bot id=7591130421
+2025-05-18 13:10:45,532 [WARNING] aiogram.dispatcher: Received SIGTERM signal
+2025-05-18 13:10:45,532 [WARNING] aiogram.dispatcher: Received SIGTERM signal
+2025-05-18 13:10:45,532 [INFO] aiogram.dispatcher: Polling stopped for bot @vstorhelpbot id=7591130421 - 'myhelperbot'
+2025-05-18 13:10:45,532 [INFO] aiogram.dispatcher: Polling stopped
+2025-05-18 13:10:45,623 [WARNING] aiogram.dispatcher: Received SIGTERM signal
+2025-05-18 13:10:45,623 [WARNING] aiogram.dispatcher: Received SIGTERM signal
+2025-05-18 13:10:45,649 [WARNING] aiogram.dispatcher: Received SIGTERM signal
+2025-05-18 13:10:45,649 [WARNING] aiogram.dispatcher: Received SIGTERM signal
+2025-05-18 13:10:45,649 [WARNING] aiogram.dispatcher: Received SIGTERM signal
+2025-05-18 13:10:45,649 [WARNING] aiogram.dispatcher: Received SIGTERM signal
+2025-05-18 13:10:52,205 [INFO] aiogram.dispatcher: Start polling
+2025-05-18 13:10:52,511 [INFO] aiogram.dispatcher: Run polling for bot @vstorhelpbot id=7591130421 - 'myhelperbot'
+2025-05-18 13:11:01,603 [WARNING] aiogram.dispatcher: Received SIGTERM signal
+2025-05-18 13:11:01,603 [INFO] aiogram.dispatcher: Polling stopped for bot @vstorhelpbot id=7591130421 - 'myhelperbot'
+2025-05-18 13:11:01,604 [INFO] aiogram.dispatcher: Polling stopped
+2025-05-18 13:11:01,762 [WARNING] aiogram.dispatcher: Received SIGTERM signal
+2025-05-18 13:11:12,064 [INFO] aiogram.dispatcher: Start polling
+2025-05-18 13:11:12,335 [INFO] aiogram.dispatcher: Run polling for bot @vstorhelpbot id=7591130421 - 'myhelperbot'
+2025-05-18 13:11:12,699 [INFO] aiogram.event: Update id=116986430 is handled. Duration 282 ms by bot id=7591130421
+2025-05-18 13:11:20,050 [WARNING] aiogram.dispatcher: Received SIGTERM signal
+2025-05-18 13:11:20,051 [INFO] aiogram.dispatcher: Polling stopped for bot @vstorhelpbot id=7591130421 - 'myhelperbot'
+2025-05-18 13:11:20,051 [INFO] aiogram.dispatcher: Polling stopped
+2025-05-18 13:11:20,216 [WARNING] aiogram.dispatcher: Received SIGTERM signal
+2025-05-18 13:12:34,998 [INFO] aiogram.dispatcher: Start polling
+2025-05-18 13:12:35,322 [INFO] aiogram.dispatcher: Run polling for bot @vstorhelpbot id=7591130421 - 'myhelperbot'
+2025-05-18 13:12:39,693 [INFO] aiogram.event: Update id=116986431 is handled. Duration 136 ms by bot id=7591130421
+2025-05-18 13:12:41,098 [INFO] aiogram.event: Update id=116986432 is handled. Duration 381 ms by bot id=7591130421
+2025-05-18 13:12:46,779 [INFO] aiogram.event: Update id=116986433 is handled. Duration 111 ms by bot id=7591130421
+2025-05-18 13:12:55,074 [INFO] aiogram.event: Update id=116986434 is handled. Duration 158 ms by bot id=7591130421
+2025-05-18 13:12:59,404 [INFO] aiogram.event: Update id=116986435 is handled. Duration 204 ms by bot id=7591130421
+2025-05-18 13:13:05,666 [INFO] aiogram.event: Update id=116986436 is handled. Duration 144 ms by bot id=7591130421
+2025-05-18 13:13:23,872 [INFO] aiogram.event: Update id=116986437 is handled. Duration 180 ms by bot id=7591130421
+2025-05-18 13:13:25,791 [INFO] aiogram.event: Update id=116986438 is handled. Duration 197 ms by bot id=7591130421
+2025-05-18 13:13:34,050 [INFO] aiogram.event: Update id=116986439 is not handled. Duration 6446 ms by bot id=7591130421
+2025-05-18 13:13:34,050 [ERROR] aiogram.event: Cause exception while process update id=116986439 by bot id=7591130421
+TelegramBadRequest: Telegram server says - Bad Request: can't parse entities: Unsupported start tag "label:onclick" at byte offset 179
+Traceback (most recent call last):
+  File "/home/vadim/Projects/tgconnect/.venv/lib/python3.13/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vadim/Projects/tgconnect/.venv/lib/python3.13/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/home/vadim/Projects/tgconnect/.venv/lib/python3.13/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vadim/Projects/tgconnect/.venv/lib/python3.13/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vadim/Projects/tgconnect/.venv/lib/python3.13/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vadim/Projects/tgconnect/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vadim/Projects/tgconnect/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/vadim/Projects/tgconnect/.venv/lib/python3.13/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vadim/Projects/tgconnect/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vadim/Projects/tgconnect/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/vadim/Projects/tgconnect/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vadim/Projects/tgconnect/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vadim/Projects/tgconnect/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/vadim/Projects/tgconnect/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vadim/Projects/tgconnect/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vadim/Projects/tgconnect/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/vadim/Projects/tgconnect/handlers/commands.py", line 52, in execute_command
+    await callback.message.answer(f"📦 <b>{name}</b>\n<pre>{output}</pre>", parse_mode="HTML")
+  File "/home/vadim/Projects/tgconnect/.venv/lib/python3.13/site-packages/aiogram/methods/base.py", line 84, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "/home/vadim/Projects/tgconnect/.venv/lib/python3.13/site-packages/aiogram/client/bot.py", line 478, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vadim/Projects/tgconnect/.venv/lib/python3.13/site-packages/aiogram/client/session/base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vadim/Projects/tgconnect/.venv/lib/python3.13/site-packages/aiogram/client/session/aiohttp.py", line 185, in make_request
+    response = self.check_response(
+        bot=bot, method=method, status_code=resp.status, content=raw_result
+    )
+  File "/home/vadim/Projects/tgconnect/.venv/lib/python3.13/site-packages/aiogram/client/session/base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: can't parse entities: Unsupported start tag "label:onclick" at byte offset 179
+2025-05-18 13:13:34,283 [INFO] aiogram.event: Update id=116986440 is handled. Duration 397 ms by bot id=7591130421
+2025-05-18 13:13:59,024 [INFO] aiogram.event: Update id=116986441 is handled. Duration 421 ms by bot id=7591130421
+2025-05-18 13:14:07,915 [INFO] aiogram.event: Update id=116986442 is handled. Duration 119 ms by bot id=7591130421
+2025-05-18 13:15:28,946 [INFO] aiogram.dispatcher: Start polling
+2025-05-18 13:15:29,211 [INFO] aiogram.dispatcher: Run polling for bot @vstorhelpbot id=7591130421 - 'myhelperbot'
+2025-05-18 13:15:33,231 [INFO] aiogram.event: Update id=116986451 is handled. Duration 171 ms by bot id=7591130421
+2025-05-18 13:15:43,506 [INFO] aiogram.event: Update id=116986452 is handled. Duration 217 ms by bot id=7591130421
+2025-05-18 13:15:51,350 [INFO] aiogram.event: Update id=116986453 is handled. Duration 106 ms by bot id=7591130421
+2025-05-18 13:15:59,205 [INFO] aiogram.event: Update id=116986454 is handled. Duration 115 ms by bot id=7591130421
+2025-05-18 13:16:02,095 [INFO] aiogram.event: Update id=116986455 is handled. Duration 214 ms by bot id=7591130421
+2025-05-18 13:16:03,394 [INFO] aiogram.event: Update id=116986456 is handled. Duration 228 ms by bot id=7591130421
+2025-05-18 13:16:09,118 [INFO] aiogram.event: Update id=116986457 is handled. Duration 205 ms by bot id=7591130421
+2025-05-18 13:16:19,695 [INFO] aiogram.event: Update id=116986458 is handled. Duration 105 ms by bot id=7591130421
+2025-05-18 13:16:29,877 [INFO] aiogram.event: Update id=116986459 is handled. Duration 121 ms by bot id=7591130421
+2025-05-18 13:16:31,724 [INFO] aiogram.event: Update id=116986460 is handled. Duration 104 ms by bot id=7591130421
+2025-05-18 13:16:32,936 [INFO] aiogram.event: Update id=116986461 is handled. Duration 221 ms by bot id=7591130421
+2025-05-18 13:16:46,614 [INFO] aiogram.event: Update id=116986462 is handled. Duration 335 ms by bot id=7591130421
+2025-05-18 13:16:48,262 [INFO] aiogram.event: Update id=116986463 is handled. Duration 220 ms by bot id=7591130421
+2025-05-18 13:16:50,237 [INFO] aiogram.event: Update id=116986464 is handled. Duration 221 ms by bot id=7591130421
