@@ -182,6 +182,12 @@ wheels = [
 ]
 
 [[package]]
+name = "logging"
+version = "0.4.9.6"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/93/4b/979db9e44be09f71e85c9c8cfc42f258adfb7d93ce01deed2788b2948919/logging-0.4.9.6.tar.gz", hash = "sha256:26f6b50773f085042d301085bd1bf5d9f3735704db9f37c1ce6d8b85c38f2417", size = 96029, upload-time = "2013-06-04T23:43:22.086Z" }
+
+[[package]]
 name = "magic-filter"
 version = "1.0.12"
 source = { registry = "https://pypi.org/simple" }
@@ -318,6 +324,12 @@ wheels = [
 ]
 
 [[package]]
+name = "pyperclip"
+version = "1.9.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/30/23/2f0a3efc4d6a32f3b63cdff36cd398d9701d26cda58e3ab97ac79fb5e60d/pyperclip-1.9.0.tar.gz", hash = "sha256:b7de0142ddc81bfc5c7507eea19da920b92252b548b96186caf94a5e2527d310", size = 20961, upload-time = "2024-06-18T20:38:48.401Z" }
+
+[[package]]
 name = "python-dotenv"
 version = "1.1.0"
 source = { registry = "https://pypi.org/simple" }
@@ -334,6 +346,8 @@ dependencies = [
     { name = "aiogram" },
     { name = "asyncio" },
     { name = "dotenv" },
+    { name = "logging" },
+    { name = "pyperclip" },
 ]
 
 [package.metadata]
@@ -341,6 +355,8 @@ requires-dist = [
     { name = "aiogram", specifier = ">=3.20.0.post0" },
     { name = "asyncio", specifier = ">=3.4.3" },
     { name = "dotenv", specifier = ">=0.9.9" },
+    { name = "logging", specifier = ">=0.4.9.6" },
+    { name = "pyperclip", specifier = ">=1.9.0" },
 ]
 
 [[package]]

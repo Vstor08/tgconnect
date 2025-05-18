@@ -8,4 +8,6 @@ dependencies = [
     "aiogram>=3.20.0.post0",
     "asyncio>=3.4.3",
     "dotenv>=0.9.9",
+    "logging>=0.4.9.6",
+    "pyperclip>=1.9.0",
 ]
